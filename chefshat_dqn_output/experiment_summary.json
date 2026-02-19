@@ -1,0 +1,26 @@
+{
+  "A_baseline": {
+    "config": {
+      "lr": 0.0001,
+      "eps_decay": 0.9995
+    },
+    "win_rate_all": 1.0,
+    "win_rate_last50": 1.0
+  },
+  "B_high_lr": {
+    "config": {
+      "lr": 0.0005,
+      "eps_decay": 0.9995
+    },
+    "win_rate_all": 1.0,
+    "win_rate_last50": 1.0
+  },
+  "C_fast_decay": {
+    "config": {
+      "lr": 0.0001,
+      "eps_decay": 0.998
+    },
+    "win_rate_all": 1.0,
+    "win_rate_last50": 1.0
+  }
+}
