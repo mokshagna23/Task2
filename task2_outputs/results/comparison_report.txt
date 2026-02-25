@@ -1,0 +1,42 @@
+
+======================================================================
+AGENT PERFORMANCE COMPARISON REPORT
+======================================================================
+
+Algorithm Performance Summary:
+----------------------------------------------------------------------
+Agent                Avg Reward      Max Reward      Min Reward     
+----------------------------------------------------------------------
+DQN_Agent            0.1058          0.9955          -1.0240        
+PPO_Agent            0.1655          0.9955          -1.0235        
+
+----------------------------------------------------------------------
+
+Detailed Breakdown:
+----------------------------------------------------------------------
+
+DQN_Agent:
+  total_episodes                 100
+  total_steps                    2942
+  avg_reward                     0.10579
+  max_reward                     0.9955
+  min_reward                     -1.024
+  avg_loss                       0.0474676483922736
+  algorithm                      DQN
+  epsilon                        0.01
+  buffer_size                    2942
+  updates                        2878
+
+PPO_Agent:
+  total_episodes                 100
+  total_steps                    3003
+  avg_reward                     0.16548499999999997
+  max_reward                     0.9955
+  min_reward                     -1.0235
+  avg_loss                       0.17917627315209417
+  algorithm                      PPO
+  clip_ratio                     0.2
+  gae_lambda                     0.95
+  entropy_coeff                  0.01
+
+======================================================================

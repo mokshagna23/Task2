@@ -1,0 +1,30 @@
+{
+  "DQN_Agent": {
+    "agent_name": "DQN_Agent",
+    "total_episodes": 100,
+    "total_steps": 2942,
+    "avg_reward": 0.10579,
+    "max_reward": 0.9955,
+    "min_reward": -1.024,
+    "avg_loss": 0.0474676483922736,
+    "timestamp": "2026-02-25T18:31:31.690897",
+    "algorithm": "DQN",
+    "epsilon": 0.01,
+    "buffer_size": 2942,
+    "updates": 2878
+  },
+  "PPO_Agent": {
+    "agent_name": "PPO_Agent",
+    "total_episodes": 100,
+    "total_steps": 3003,
+    "avg_reward": 0.16548499999999997,
+    "max_reward": 0.9955,
+    "min_reward": -1.0235,
+    "avg_loss": 0.17917627315209417,
+    "timestamp": "2026-02-25T18:31:36.124172",
+    "algorithm": "PPO",
+    "clip_ratio": 0.2,
+    "gae_lambda": 0.95,
+    "entropy_coeff": 0.01
+  }
+}

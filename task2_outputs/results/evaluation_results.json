@@ -1,0 +1,18 @@
+{
+  "DQN_Agent": {
+    "agent": "DQN_Agent",
+    "num_eval_episodes": 20,
+    "mean_reward": -0.3,
+    "std_reward": 0.9539392014169455,
+    "max_reward": 1.0,
+    "min_reward": -1.0
+  },
+  "PPO_Agent": {
+    "agent": "PPO_Agent",
+    "num_eval_episodes": 20,
+    "mean_reward": 0.2,
+    "std_reward": 0.9797958971132713,
+    "max_reward": 1.0,
+    "min_reward": -1.0
+  }
+}
